@@ -27,31 +27,35 @@ Follow these steps to set up the Calculator application on your local machine:
    ```bash
    git clone https://github.com/your-username/calculator.git
    cd calculator
-Set up a virtual environment (optional but recommended):
 
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-Install dependencies:
+1. **Clone the repository**:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
 
-bash
-Copy code
-pip install pyqt5
-Run the application:
+2. **Install dependencies:**
+   
+   ```bash
+   pip install pyqt5
 
-bash
-Copy code
-python main.py
-Usage
-Launch the application.
-Use the number buttons and operators to perform calculations.
-View the result in the display area.
-Press the "C" button to clear the input.
-Screenshots
-<img width="787" alt="output" src="https://github.com/user-attachments/assets/eda072fa-cf76-49e2-b395-e66cc530ea2d" />
+4. **Run the application:**:
+   ```bash
+   python main.py
+5. **Use the application:**
 
-https://github.com/user-attachments/assets/4d384f43-b100-4bb6-a20a-b672d6c3c3a4
+    1) Use the number buttons and operators to perform calculations.
+    2) View the result in the display area.
+    3) Press the "C" button to clear the input.
+ 
+**Screenshots**
+
+<img width="787" alt="output" src="https://github.com/user-attachments/assets/8a7c23c5-784d-49fe-a26e-9bc750902e17" />
+
+https://github.com/user-attachments/assets/898274e7-002b-4890-b31e-8bb81315ab9e
+
+
+
+
 
 
 
